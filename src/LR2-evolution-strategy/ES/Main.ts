@@ -2,7 +2,7 @@ import {Plot, plot} from "nodeplotlib";
 import {bukin6, matyasFunction, schaffer2} from "./Functions";
 import {ES, stopByIteraion} from "./ES";
 
-
+//Dmytro Ishchenko KH-41
 function main() {
 
     let start = performance.now();

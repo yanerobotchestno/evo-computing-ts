@@ -3,7 +3,7 @@ function findSymmetricValueInRange(value: number, minValue: number, maxValue: nu
     return midPoint - (value - midPoint);
 }
 
-
+//Dmytro Ishchenko KH-41
 export function normalValue(minValue: number, maxValue: number, iteration: number, numPoints: number) {
     return minValue + (maxValue - minValue) * (iteration / numPoints);
 }

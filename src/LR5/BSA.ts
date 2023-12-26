@@ -135,7 +135,7 @@ class BeeSwarmAlgorithm {
             }
         }
     }
-
+//Dmytro Ishchenko KH-41
     public execute(): Bee {
         this.initializeBees();
         this.iterationCount = 0;

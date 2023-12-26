@@ -2,24 +2,7 @@ type Vector = number[];
 
 
 
-function matyasFunction(x: Vector): number {
-    return 0.26 * (x[0] ** 2 + x[1] ** 2) - 0.48 * x[0] * x[1];
-}
-
-function schaffer2(x: Vector): number {
-    const fact1: number = Math.pow(Math.sin(x[0] ** 2 - x[1] ** 2), 2) - 0.5;
-    const fact2: number = Math.pow(1 + 0.001 * (x[0] ** 2 + x[1] ** 2), 2);
-
-    return 0.5 + fact1 / fact2;
-}
-
-
-function bukin6(x: Vector): number {
-    const term1: number = 100 * Math.sqrt(Math.abs(x[1] - 0.01 * x[0] ** 2));
-    const term2: number = 0.01 * Math.abs(x[0] + 10);
-
-    return term1 + term2;
-}
+//Dmytro Ishchenko KH-41s
 
 function stopCondition(criteria: StopCriteria, iteration: number, maxIteration: number, population: number[][], tolPop: number, fitness: number[], tolFunc: number): boolean {
     if (criteria === StopCriteria.Iteration) {

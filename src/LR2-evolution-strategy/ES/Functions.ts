@@ -1,4 +1,4 @@
-
+//Dmytro Ishchenko KH-41
  export function f(x:number) {
     return x ^ 2;
 }

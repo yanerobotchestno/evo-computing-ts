@@ -600,7 +600,7 @@ function runPGV() {
         //'P': Functions.POWER,
         // 'S': Functions.SQRT,
     };
-
+//Dmytro Ishchenko KH-41
     const terminals = ['x'];
 
     const ge = new GeneticExpressions(functions, terminals, 16, 2, 2, Linker.SUM, 0.6, 3, 0.1, 0.1);

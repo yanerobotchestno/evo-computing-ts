@@ -10,3 +10,5 @@ export function toString(num: number) {
             return Math.round(num + Math.random() * 100);
     }
 }
+
+//Dmytro Ishchenko KH-41

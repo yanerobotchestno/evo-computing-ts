@@ -214,7 +214,7 @@ function getCityName(cityNumber: number): string {
 
     return cityNames[cityNumber] || 'Неизвестный город';
 }
-
+//Dmytro Ishchenko KH-41
 function runACS() {
     const numAnts = 2500;
 // альфа - приоритетность путей с феромонами, чем выше показатель - тем выше шанс, что муравей выберет путь с бОльшей концентрацией ферамона, позволяет отточить самый лучший маршрут, но приводит к "консерватизации"

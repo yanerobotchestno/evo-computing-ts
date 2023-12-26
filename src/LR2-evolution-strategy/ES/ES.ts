@@ -1,5 +1,5 @@
 import {bukin6, matyasFunction, schaffer2} from "./Functions";
-
+//Dmytro Ishchenko KH-41
 export type ESParams = {
     stopCondition: (iteration: number, maxIteration: number, previousPopulation: Member[], currentPopulation: Member[], distance: number) => boolean;
     maxIteration: number;

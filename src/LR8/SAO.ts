@@ -36,7 +36,7 @@ function transform(old: number[]): number[] {
 function decreaseTemperature(t: number, e: number): number {
     return t - 1 / e;
 }
-
+//Dmytro Ishchenko KH-41
 function simulatedAnnealingOptimization(func: (args: number[]) => number | null,
                                         dimensions: number,
                                         bounds: [number, number],

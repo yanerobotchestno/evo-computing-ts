@@ -3,7 +3,7 @@ enum StopCriteria {
     Population,
     Fitness
 }
-
+//Dmytro Ishchenko KH-41
 class Member {
     genes: number[];
     fitness: number;
